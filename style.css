@@ -1,0 +1,98 @@
+h1 {
+    color: blueviolet;
+}
+
+body {
+    background-color: #F7CAC9;
+}
+html {
+    font-family: "Inter", sans-serif;
+}
+
+.info {
+    text-align: center;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.who-header {
+    font-family: "Jersey 10", sans-serif;
+}
+
+.members-header {
+    font-family: "Jersey 10", sans-serif;
+    color: tomato;
+}
+
+.header-influence {
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(214, 80, 118);
+}
+
+.discography-header {
+    font-family: "Jersey 10", sans-serif;
+    color: #8B0000;
+}
+
+ol > li {
+    list-style-type: lower-roman;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: line-through;
+    color: olivedrab
+}
+
+a:hover {
+    text-decoration: underline;
+    color: hotpink;
+}
+
+#members {
+    border: 2px solid blueviolet;
+    padding: 0.05rem 0.3rem;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+caption {
+    caption-side: bottom;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+th,
+td {
+  border: 1px solid rgb(156, 148, 148);
+  padding: 4px 6px;
+}
+
+caption {
+    font-weight: bold;
+}
+
+thead th {
+    background-color: cyan;
+    font-weight: bold;
+  }
+
+  tfoot th {
+    background-color: crimson;
+    font-weight: bold;
+  }
